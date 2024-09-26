@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+   background-image: url(imagenes/Imagen.png);
+    background-position: center;    
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+.tituloPrincipal{
+   
+        font-family: "Parisienne", cursive;
+        font-weight: bold;
+        text-align: center;
+        font-size: 100px;     
+}
+.titulofooter{
+        font-family: "Parisienne", cursive;
+        font-weight: bold;
+        text-align: center;
+        font-size: 70px;
+}
+nav{
+    height: 4%;
+    position: relative;
+    background-color: rgb(24, 23, 23);
+   
+}
+
+li{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+   
+    padding-top: 1%;
+    height: 100%;
+   
+  
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    height: 2500px;
+    position: relative;
+    background-color:  rgb(224, 163, 216);
+}
+main{
+    margin: 3%;
+  
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: rgb(242, 175, 198);
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(122, 116, 118);
+    font-weight: normal;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    
+}
+footer{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    bottom: 0%;
+    background-image: url(imagenes/imgPiePagina.jpeg);
+    background-position: center;    
+    background-size: cover;
+    position: absolute;
+}
